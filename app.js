@@ -1,94 +1,40 @@
 // Database de la Bóveda (Nuestra Armería)
 const toolsDatabase = [
     {
-        id: 1,
-        name: "Midjourney v6",
-        category: "imagen",
-        icon: "fa-solid fa-paintbrush",
-        status: "vigente",
-        updateDate: "Marzo 2024",
-        description: "Generación de imágenes por IA en Discord. Insuperable en fotorealismo, uso de seeds y variables de aspecto.",
-        tags: ["Texto a Imagen", "Pago mensual", "Discord"],
-        appUrl: "https://midjourney.com",
-        videoUrl: "https://www.youtube.com/embed/V61k3B2qHME" // Video placeholder de referencia
-    },
-    {
-        id: 2,
-        name: "Runway Gen-2",
-        category: "video",
-        icon: "fa-solid fa-film",
-        status: "vigente",
-        updateDate: "Febrero 2024",
-        description: "Creación de video con control de cámara y 'Motion Brush' para animar zonas específicas de la imagen.",
-        tags: ["Texto a Video", "Imagen a Video"],
-        appUrl: "https://runwayml.com",
-        videoUrl: "https://www.youtube.com/embed/zM2W1g1X84o"
-    },
-    {
-        id: 3,
-        name: "Suno AI v3",
-        category: "audio",
-        icon: "fa-solid fa-music",
-        status: "vigente",
-        updateDate: "Abril 2024",
-        description: "Generación de canciones completas con calidad de estudio. Crea letra, ritmo y voz.",
-        tags: ["Música", "Voz sintética"],
-        appUrl: "https://suno.ai",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        id: 4,
-        name: "Devin / Cursor IDE",
-        category: "codigo",
-        icon: "fa-solid fa-terminal",
-        status: "vigente",
-        updateDate: "Enero 2024",
-        description: "Editor de código con mente propia. Autocompleta o genera scripts desde prompts en lenguaje natural.",
-        tags: ["Programación", "IA Agente"],
-        appUrl: "https://cursor.com",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        id: 5,
-        name: "DALL-E 2",
-        category: "imagen",
-        icon: "fa-solid fa-image",
-        status: "obsoleto",
-        updateDate: "Septiembre 2022",
-        description: "Herramienta que rompió el mercado, pero ha sido superada en calidad. Usar DALL-E 3 en GPT-4 en su lugar.",
-        tags: ["Texto a Imagen", "OpenAI"],
-        appUrl: "https://openai.com/dall-e-2",
-        videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    },
-    {
-        id: Date.now() + Math.floor(Math.random() * 1000),
+        id: Date.now() + 1,
         name: "Google Antigravity",
         category: "codigo",
         icon: "fa-solid fa-code",
+        author: "Ale Javi",
         updateDate: "Febrero 2026",
         description: "Agente de IA de Google para orquestar proyectos, generar código funcional y manejar servidores MCP.",
+        videoContext: "El video trata sobre cómo se articula Stitch con Antigravity y Firebase para crear aplicaciones web.",
         tags: ["Orquestador", "Desarrollo", "MCP"],
         appUrl: "https://antigravity.google.com",
         videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
     },
     {
-        id: Date.now() + Math.floor(Math.random() * 1000),
+        id: Date.now() + 2,
         name: "Google Stitch",
         category: "imagen",
         icon: "fa-solid fa-image",
+        author: "Ale Javi",
         updateDate: "Febrero 2026",
         description: "Plataforma de diseño visual para crear maquetas, prototipos y UI profesional mediante IA.",
+        videoContext: "Muestra cómo diseñar visualmente un prototipo para la web antes de programarlo en Antigravity.",
         tags: ["Diseño UI", "Prototipado", "Maquetación"],
         appUrl: "https://stitch.google.com",
         videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
     },
     {
-        id: Date.now() + Math.floor(Math.random() * 1000),
+        id: Date.now() + 3,
         name: "Firebase",
         category: "backend",
         icon: "fa-solid fa-server",
+        author: "Ale Javi",
         updateDate: "Febrero 2026",
         description: "Ecosistema para backend que permite añadir autenticación, base de datos y hosting gratuito.",
+        videoContext: "Trata sobre cómo iniciar sesión y conectar la aplicación para agregarle registro de usuario y base de datos.",
         tags: ["Backend", "Hosting", "Autenticación"],
         appUrl: "https://firebase.google.com",
         videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
@@ -125,15 +71,21 @@ function renderTools(tools) {
         const tagsHtml = tool.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
 
         card.innerHTML = `
-            <div class="card-header">
+            <div class="card-header" style="align-items: center;">
                 <div class="tool-icon">
                     <i class="${tool.icon}"></i>
+                </div>
+                <div class="tool-channel" style="color: var(--neon-cyan); font-size: 0.8rem; font-weight: 600; display: flex; align-items: center; gap: 6px;">
+                    <i class="fa-brands fa-youtube" style="color: #ff0000;"></i> ${tool.author || "Canal Desconocido"}
                 </div>
             </div>
             <div class="tool-info">
                 <h4>${tool.name}</h4>
-                <div class="tool-date"><i class="fa-regular fa-clock"></i> Último registro: ${tool.updateDate}</div>
-                <p class="tool-desc">${tool.description}</p>
+                <div class="tool-date"><i class="fa-regular fa-clock"></i> Registro: ${tool.updateDate}</div>
+                <p class="tool-desc" style="margin-bottom: 8px;"><strong>¿Qué es?</strong> ${tool.description}</p>
+                <p class="tool-desc" style="color: var(--text-secondary); font-size: 0.85rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 8px;">
+                    <strong>En el Video:</strong> ${tool.videoContext || "Sin contexto adicional"}
+                </p>
                 <div class="tool-tags">
                     ${tagsHtml}
                 </div>
