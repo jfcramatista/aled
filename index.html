@@ -16,8 +16,13 @@
     <div class="dashboard-container">
         <!-- Sidebar -->
         <aside class="sidebar">
-            <div class="sidebar-header">
-                <h2><span class="neon-text-cyan">TKV</span> // VAULT</h2>
+            <div class="sidebar-header" style="display: flex; align-items: center; gap: 12px;">
+                <!-- Logo Ballena Sidebar -->
+                <svg viewBox="0 0 100 50" style="width: 50px; filter: drop-shadow(0 0 5px var(--neon-cyan));">
+                    <path d="M10 25 Q 30 5 50 25 Q 70 45 90 25 L 50 25 L 30 35 Z" fill="transparent"
+                        stroke="var(--neon-cyan)" stroke-width="2" stroke-linejoin="round" />
+                </svg>
+                <h2><span class="neon-text-cyan" style="font-size: 1.8rem; letter-spacing: 4px;">ALED</span></h2>
             </div>
             <nav class="sidebar-nav">
                 <ul>
@@ -72,6 +77,12 @@
             <div id="videoContainer"></div>
         </div>
     </div>
+
+    <!-- Marca Personal (Ballena SVG Oculta) -->
+    <svg id="matrix-whale" viewBox="0 0 100 50" style="display: none;">
+        <path d="M10 25 Q 30 5 50 25 Q 70 45 90 25 L 50 25 L 30 35 Z" fill="transparent" stroke="var(--neon-cyan)"
+            stroke-width="1.5" stroke-linejoin="round" />
+    </svg>
 
     <script src="app.js"></script>
 </body>

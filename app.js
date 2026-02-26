@@ -166,3 +166,20 @@ window.onclick = function (event) {
 
 // Carga Inicial en Pantalla
 renderTools(toolsDatabase);
+
+// ==========================================
+// MARCA PERSONAL (Ballena Animada)
+// ==========================================
+function addAnimatedWhale() {
+    const whaleTemplate = document.getElementById('matrix-whale');
+    if (whaleTemplate) {
+        const whale = whaleTemplate.cloneNode(true);
+        whale.style.display = 'block';
+        whale.removeAttribute('id'); // Evitar IDs duplicados
+        whale.classList.add('matrix-whale', 'animated-whale');
+        document.body.appendChild(whale);
+    }
+}
+
+// Ejecutar cuando se termine de cargar el DOM
+window.addEventListener('DOMContentLoaded', addAnimatedWhale);
