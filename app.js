@@ -59,6 +59,39 @@ const toolsDatabase = [
         tags: ["Texto a Imagen", "OpenAI"],
         appUrl: "https://openai.com/dall-e-2",
         videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+        id: Date.now() + Math.floor(Math.random() * 1000),
+        name: "Google Antigravity",
+        category: "codigo",
+        icon: "fa-solid fa-code",
+        updateDate: "Febrero 2026",
+        description: "Agente de IA de Google para orquestar proyectos, generar código funcional y manejar servidores MCP.",
+        tags: ["Orquestador", "Desarrollo", "MCP"],
+        appUrl: "https://antigravity.google.com",
+        videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
+    },
+    {
+        id: Date.now() + Math.floor(Math.random() * 1000),
+        name: "Google Stitch",
+        category: "imagen",
+        icon: "fa-solid fa-image",
+        updateDate: "Febrero 2026",
+        description: "Plataforma de diseño visual para crear maquetas, prototipos y UI profesional mediante IA.",
+        tags: ["Diseño UI", "Prototipado", "Maquetación"],
+        appUrl: "https://stitch.google.com",
+        videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
+    },
+    {
+        id: Date.now() + Math.floor(Math.random() * 1000),
+        name: "Firebase",
+        category: "backend",
+        icon: "fa-solid fa-server",
+        updateDate: "Febrero 2026",
+        description: "Ecosistema para backend que permite añadir autenticación, base de datos y hosting gratuito.",
+        tags: ["Backend", "Hosting", "Autenticación"],
+        appUrl: "https://firebase.google.com",
+        videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
     }
 ];
 
