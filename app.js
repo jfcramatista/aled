@@ -402,6 +402,97 @@ const toolsDatabase = [
         tags: ["Data Analysis", "Sankey", "Finanzas"],
         appUrl: "https://chatglm.cn/analysis",
         videoUrl: "https://www.youtube.com/embed/HeVZHuJSkpY"
+    },
+    {
+        id: 32,
+        name: "Google Slides (con Gemini)",
+        category: "diapositivas",
+        icon: "fa-solid fa-desktop",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Plataforma de presentaciones de Google integrada con Gemini (Nano Banana) para edición avanzada, generación de imágenes y modificación de elementos visuales.",
+        videoContext: "Se empleó para modificar títulos, eliminar marcas de agua y regenerar diapositivas importadas desde NotebookLM.",
+        tags: ["Presentaciones", "Google", "Gemini"],
+        appUrl: "https://slides.google.com",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 33,
+        name: "TopView",
+        category: "video",
+        icon: "fa-solid fa-video",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Plataforma de generación de videos profesionales mediante IA que permite crear comerciales unificando modelos, escenarios y objetos generados.",
+        videoContext: "Presentada como una solución para crear anuncios de alta calidad y contenido viral combinando múltiples modelos de IA de video.",
+        tags: ["Marketing", "Video IA", "Comerciales"],
+        appUrl: "https://www.topview.ai",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 34,
+        name: "Magic Eraser",
+        category: "imagen",
+        icon: "fa-solid fa-eraser",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Herramienta de edición fotográfica especializada en eliminar objetos, personas o marcas de agua no deseadas de las imágenes de forma rápida.",
+        videoContext: "Se utilizó para borrar manualmente logotipos y marcas de agua de las diapositivas exportadas de NotebookLM.",
+        tags: ["Edición", "Limpieza", "Imagen"],
+        appUrl: "https://magicstudio.com/magiceraser",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 35,
+        name: "Canva Pro (Magic Studio)",
+        category: "diseno_web",
+        icon: "fa-solid fa-wand-magic-sparkles",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Suite de diseño que incluye herramientas de IA para captura de texto, expansión mágica y edición de elementos dentro de archivos PDF o presentaciones.",
+        videoContext: "Se usó para extraer texto de imágenes estáticas y mover elementos de diapositivas (como árboles) usando 'Captura Mágica'.",
+        tags: ["Diseño", "Automatización", "IA"],
+        appUrl: "https://www.canva.com",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 36,
+        name: "Folder.ll",
+        category: "agente",
+        icon: "fa-solid fa-folder-tree",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Extensión para NotebookLM que permite organizar y categorizar los cuadernos en carpetas personalizadas con iconos y colores.",
+        videoContext: "Se empleó para organizar el caos de múltiples cuadernos en NotebookLM mediante categorías visuales como 'Tecnología'.",
+        tags: ["Organización", "UX", "NotebookLM"],
+        appUrl: "https://chromewebstore.google.com",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 37,
+        name: "Gemini Canvas",
+        category: "programacion",
+        icon: "fa-solid fa-code",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Entorno de desarrollo de Gemini que permite generar código y aplicaciones funcionales utilizando cuadernos de NotebookLM como base de conocimiento.",
+        videoContext: "Se utilizó para programar una aplicación de salud ('Bioritmos') basada en los consejos extraídos de un cuaderno de NotebookLM.",
+        tags: ["Coding", "Apps", "Google Gemini"],
+        appUrl: "https://gemini.google.com",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 38,
+        name: "Google Antigravity",
+        category: "agente",
+        icon: "fa-solid fa-robot",
+        author: "Alejavi Rivera",
+        updateDate: "15 Feb 2026",
+        description: "Plataforma de agentes autónomos que utiliza el protocolo MCP para controlar y automatizar herramientas como NotebookLM mediante lenguaje natural.",
+        videoContext: "Se usó para pedirle a un agente que creara automáticamente tres cuadernos de NotebookLM sobre diferentes verticales de IA.",
+        tags: ["Agentes", "MCP", "Automatización"],
+        appUrl: "https://antigravity.google.com",
+        videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
     }
 ];
 
