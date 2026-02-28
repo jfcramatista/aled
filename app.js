@@ -493,6 +493,97 @@ const toolsDatabase = [
         tags: ["Agentes", "MCP", "Automatización"],
         appUrl: "https://antigravity.google.com",
         videoUrl: "https://www.youtube.com/embed/SkuFcjfHWi4"
+    },
+    {
+        id: 39,
+        name: "Gemini Enterprise (Veo 3.1)",
+        category: "video",
+        icon: "fa-solid fa-clapperboard",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Plataforma empresarial de Google que permite el acceso al modelo Veo 3.1 para generar videos de alta resolución con audio integrado a partir de descripciones de texto.",
+        videoContext: "Se utilizó para generar un video realista de una tortilla de patatas cocinándose con sonido de chisporroteo y un plano cinematográfico de una pareja discutiendo.",
+        tags: ["Google", "Veo 3.1", "Video HD"],
+        appUrl: "https://gemini.google.com/enterprise",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 40,
+        name: "NordVPN",
+        category: "seguridad",
+        icon: "fa-solid fa-shield-halved",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Servicio de red privada virtual que permite simular ubicaciones geográficas para acceder a herramientas de IA restringidas regionalmente, protegiendo la IP y bloqueando malware.",
+        videoContext: "Se recomendó para acceder a Gemini Enterprise en países donde la funcionalidad de generación de video aún no está disponible.",
+        tags: ["VPN", "Privacidad", "Acceso"],
+        appUrl: "https://nordvpn.com",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 41,
+        name: "BytePlus (Seaweed 1.5 Pro)",
+        category: "video",
+        icon: "fa-solid fa-film",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Plataforma profesional de ByteDance (dueños de TikTok) que utiliza los modelos Seaweed para generar videos de hasta 12 segundos en Full HD con audio y sin marcas de agua.",
+        videoContext: "Se usó para crear un video surrealista de una rana cantando ópera y tocando el violín, además de un video de un emprendedor tecnológico.",
+        tags: ["ByteDance", "Video IA", "Sin Marca de Agua"],
+        appUrl: "https://www.byteplus.com",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 42,
+        name: "Tencent Hunyuan (Image 3.0)",
+        category: "imagen",
+        icon: "fa-solid fa-image",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Modelo generativo de imágenes de Tencent capaz de crear fotografías hiperrealistas y arte digital en alta resolución a partir de prompts complejos.",
+        videoContext: "Se utilizó para generar la imagen base de un panadero artesanal y una ciudad futurista sobre nubes antes de convertirlas a video.",
+        tags: ["Tencent", "Generación Imagen", "Hiperrealismo"],
+        appUrl: "https://hunyuan.tencent.com",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 43,
+        name: "Hunyuan Video 1.5",
+        category: "video",
+        icon: "fa-solid fa-play",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Modelo de video de Tencent que permite la generación de clips en HD y Full HD a partir de imágenes, manteniendo una alta fidelidad física y visual.",
+        videoContext: "Se empleó para animar las imágenes generadas previamente, logrando movimientos realistas de harina volando y coches flotando.",
+        tags: ["Tencent", "Image-to-Video", "Full HD"],
+        appUrl: "https://hunyuan.tencent.com/video",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 44,
+        name: "Hunyuan Video (Avatares y Motion)",
+        category: "avatares",
+        icon: "fa-solid fa-user-astronaut",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Herramienta avanzada de Tencent para sincronización labial (lip-sync) y transferencia de movimiento (motion transfer) a partir de un video de referencia.",
+        videoContext: "Se usó para crear un avatar parlante a partir de una foto y para hacer que una imagen estática realizara un baile complejo.",
+        tags: ["Lip Sync", "Motion Transfer", "Avatares"],
+        appUrl: "https://hunyuan.tencent.com/video",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 45,
+        name: "Temp-Mail",
+        category: "utilidades",
+        icon: "fa-solid fa-envelope-circle-check",
+        author: "Alejavi Rivera",
+        updateDate: "8 Feb 2026",
+        description: "Servicio de correos electrónicos temporales, desechables y gratuitos para proteger la privacidad y evitar el spam al registrarse en nuevas herramientas.",
+        videoContext: "Se propuso como estrategia para registrarse en múltiples servicios de IA (como BytePlus) sin comprometer el correo personal.",
+        tags: ["Seguridad", "Privacidad", "Temp Mail"],
+        appUrl: "https://temp-mail.org/es",
+        videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
     }
 ];
 
