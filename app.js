@@ -610,6 +610,58 @@ const toolsDatabase = [
         tags: ["PPT", "Presentaciones", "Productividad"],
         appUrl: "https://chatglm.cn",
         videoUrl: "https://www.youtube.com/embed/zIAnnuzbqUY"
+    },
+    {
+        id: 48,
+        name: "Flow",
+        category: "video",
+        icon: "fa-solid fa-wand-magic-sparkles",
+        author: "Alejavi Rivera",
+        updateDate: "8 Jan 2026",
+        description: "Plataforma de generación visual que permite crear imágenes utilizando el modelo Nano Banana Pro y convertirlas posteriormente en vídeo con transiciones suaves.",
+        videoContext: "Se utilizó para generar la imagen de un robot y luego animarla para crear una página de error 404 con efecto de bucle.",
+        tags: ["Generación Imagen", "Imagen a Vídeo", "Animación"],
+        appUrl: "https://flow.com",
+        videoUrl: "https://www.youtube.com/embed/vHJEaVyDrRk"
+    },
+    {
+        id: 49,
+        name: "Mobbin",
+        category: "diseno_web",
+        icon: "fa-solid fa-desktop",
+        author: "Alejavi Rivera",
+        updateDate: "8 Jan 2026",
+        description: "Biblioteca de referencia de diseño que recopila interfaces de aplicaciones y sitios web reales para inspiración y análisis de UX/UI.",
+        videoContext: "Utilizada para extraer capturas de pantalla de Airbnb y replicar su estructura estética en un nuevo proyecto.",
+        tags: ["UI/UX", "Inspiración", "Referencia"],
+        appUrl: "https://mobbin.com",
+        videoUrl: "https://www.youtube.com/embed/vHJEaVyDrRk"
+    },
+    {
+        id: 50,
+        name: "21st.dev",
+        category: "diseno_web",
+        icon: "fa-solid fa-cube",
+        author: "Alejavi Rivera",
+        updateDate: "8 Jan 2026",
+        description: "Repositorio de componentes de interfaz de usuario (UI) listos para copiar y pegar, con animaciones avanzadas y efectos interactivos.",
+        videoContext: "Se utilizó para extraer el código de una animación de partículas para botones y aplicarla a un sitio web existente.",
+        tags: ["UI Components", "Animaciones", "Frontend"],
+        appUrl: "https://21st.dev",
+        videoUrl: "https://www.youtube.com/embed/vHJEaVyDrRk"
+    },
+    {
+        id: 51,
+        name: "Stitch (Google)",
+        category: "diseno_web",
+        icon: "fa-solid fa-object-group",
+        author: "Alejavi Rivera",
+        updateDate: "8 Jan 2026",
+        description: "Herramienta de diseño web de Google integrada con Gemini 3 que permite crear prototipos interactivos y predecir mapas de calor de atención del usuario.",
+        videoContext: "Se usó para diseñar una aplicación móvil de esquí desde un prompt y generar un prototipo funcional con predicción de clics.",
+        tags: ["Diseño UI", "Heatmaps", "Google AI"],
+        appUrl: "https://stitch.google.com",
+        videoUrl: "https://www.youtube.com/embed/vHJEaVyDrRk"
     }
 ];
 
