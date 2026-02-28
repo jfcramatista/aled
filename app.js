@@ -1,7 +1,7 @@
 // Database de la Bóveda (Nuestra Armería)
 const toolsDatabase = [
     {
-        id: Date.now() + 1,
+        id: 1,
         name: "Pomelli",
         category: "imagen",
         icon: "fa-solid fa-camera-retro",
@@ -14,7 +14,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 2,
+        id: 2,
         name: "Appi",
         category: "avatares",
         icon: "fa-solid fa-user-astronaut",
@@ -27,7 +27,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 3,
+        id: 3,
         name: "Gemini 3.1 Pro",
         category: "programacion",
         icon: "fa-solid fa-terminal",
@@ -40,46 +40,33 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 12,
-        name: "Google AI Studio (Imagen)",
+        id: 4,
+        name: "Google AI Studio (Imagen + Progra)",
         category: "imagen_progra",
         icon: "fa-solid fa-wand-magic-sparkles",
         author: "Ale Javi",
         updateDate: "Febrero 2026",
-        description: "Entorno de desarrollo para prototipar con modelos Gemini. Permite generar imágenes dinámicas y contenido visual mediante código en lugar de simples prompts.",
-        videoContext: "Se utiliza para programar la creación de imágenes y animaciones SVG complejas integradas en aplicaciones funcionales.",
-        tags: ["Imagen + Código", "Prototipado", "API"],
+        description: "Entorno de desarrollo para prototipar con modelos Gemini, que incluye herramientas como 'Build' para crear aplicaciones funcionales y un Playground para ejecutar código.",
+        videoContext: "Fue empleada para programar animaciones SVG complejas y un sistema de reserva de pistas de pádel. Permite crear imágenes y videos a través de código.",
+        tags: ["Imagen + Código", "Prototipado", "Creative Coding"],
         appUrl: "https://aistudio.google.com",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 13,
-        name: "Google AI Studio (Video)",
+        id: 5,
+        name: "Google AI Studio (Video + Progra)",
         category: "video_progra",
         icon: "fa-solid fa-wand-magic-sparkles",
         author: "Ale Javi",
         updateDate: "Febrero 2026",
         description: "Entorno de desarrollo para prototipar con modelos Gemini. Permite crear videos e interacciones multimedia programadas para una personalización total.",
-        videoContext: "Demuestra cómo generar video y elementos visuales interactivos a través de lenguaje de programación dentro de AI Studio.",
-        tags: ["Video + Código", "Multimedia", "API"],
+        videoContext: "Demuestra cómo generar video y elementos visuales interactivos a través de lenguaje de programación. Es la evolución del prompt tradicional.",
+        tags: ["Video + Código", "Multimedia", "Creative Coding"],
         appUrl: "https://aistudio.google.com",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 4,
-        name: "Google AI Studio Pro",
-        category: "programacion",
-        icon: "fa-solid fa-wand-magic-sparkles",
-        author: "Ale Javi",
-        updateDate: "Febrero 2026",
-        description: "Entorno de desarrollo para prototipar con modelos Gemini, que incluye herramientas como 'Build' para crear aplicaciones funcionales y un Playground para ejecutar código en tiempo real.",
-        videoContext: "Fue empleada para programar animaciones SVG complejas y un sistema de reserva de pistas de pádel con integración de Google Maps.",
-        tags: ["Desarrollo", "Prototipado", "API"],
-        appUrl: "https://aistudio.google.com",
-        videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
-    },
-    {
-        id: Date.now() + 5,
+        id: 6,
         name: "Stitch",
         category: "diseno_web",
         icon: "fa-solid fa-palette",
@@ -92,7 +79,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 6,
+        id: 7,
         name: "Antigravity",
         category: "diseno_web",
         icon: "fa-solid fa-layer-group",
@@ -105,7 +92,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 7,
+        id: 8,
         name: "Notebook LM",
         category: "diapositivas",
         icon: "fa-solid fa-book",
@@ -118,7 +105,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 8,
+        id: 9,
         name: "Gemini Music",
         category: "musica",
         icon: "fa-solid fa-music",
@@ -131,7 +118,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 9,
+        id: 10,
         name: "Firebase",
         category: "backend",
         icon: "fa-solid fa-server",
@@ -144,7 +131,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
     },
     {
-        id: Date.now() + 10,
+        id: 11,
         name: "NordVPN (Ale Javi)",
         category: "seguridad",
         icon: "fa-solid fa-shield-halved",
@@ -157,7 +144,7 @@ const toolsDatabase = [
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
-        id: Date.now() + 11,
+        id: 12,
         name: "Hide.me",
         category: "seguridad",
         icon: "fa-solid fa-mask",
