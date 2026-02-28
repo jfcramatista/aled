@@ -584,6 +584,32 @@ const toolsDatabase = [
         tags: ["Seguridad", "Privacidad", "Temp Mail"],
         appUrl: "https://temp-mail.org/es",
         videoUrl: "https://www.youtube.com/embed/lSsSVrYdl9A"
+    },
+    {
+        id: 46,
+        name: "Temporary SMS",
+        category: "utilidades",
+        icon: "fa-solid fa-comment-sms",
+        author: "Alejavi Rivera",
+        updateDate: "5 Feb 2026",
+        description: "Servicio de recepción de mensajes SMS temporales para verificar cuentas de IA de forma anónima y gratuita.",
+        videoContext: "Utilizado para saltar las verificaciones de número telefónico en registros de nuevas plataformas de IA.",
+        tags: ["Privacidad", "SMS", "Verificación"],
+        appUrl: "https://receive-smss.com/",
+        videoUrl: "https://www.youtube.com/embed/zIAnnuzbqUY"
+    },
+    {
+        id: 47,
+        name: "ChatGLM Slides",
+        category: "diapositivas",
+        icon: "fa-solid fa-desktop",
+        author: "Alejavi Rivera",
+        updateDate: "5 Feb 2026",
+        description: "Herramienta integrada en ChatGLM que automatiza la creación de presentaciones completas, incluyendo estructura, contenido y diseño visual exportable a PowerPoint.",
+        videoContext: "El autor generó una presentación profesional de 10 diapositivas sobre su propia marca personal basándose en información web.",
+        tags: ["PPT", "Presentaciones", "Productividad"],
+        appUrl: "https://chatglm.cn",
+        videoUrl: "https://www.youtube.com/embed/zIAnnuzbqUY"
     }
 ];
 
