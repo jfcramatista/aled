@@ -2,7 +2,7 @@
 const toolsDatabase = [
     {
         id: Date.now() + 1,
-        name: "Pomegi",
+        name: "Pomelli",
         category: "imagen",
         icon: "fa-solid fa-camera-retro",
         author: "Ale Javi",
@@ -10,7 +10,7 @@ const toolsDatabase = [
         description: "Plataforma de generación de contenido visual profesional para marketing que permite crear sesiones de fotos (photoshoots) automáticas a partir de una sola imagen de producto.",
         videoContext: "Se utilizó para generar múltiples variaciones fotográficas profesionales de una crema y un perfume para campañas de publicidad.",
         tags: ["Marketing", "E-commerce", "Fotografía"],
-        appUrl: "https://pomegi.com",
+        appUrl: "https://labs.google.com/pomelli/about/",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
@@ -36,7 +36,7 @@ const toolsDatabase = [
         description: "El modelo más avanzado de Google integrado en su ecosistema, con capacidades multimodales mejoradas para razonamiento complejo, generación de código y creación de contenido multimedia.",
         videoContext: "Se utiliza en el video para demostrar la creación de juegos 3D interactivos y aplicaciones funcionales mediante lenguaje natural.",
         tags: ["LLM", "Multimodal", "Google"],
-        appUrl: "https://gemini.google.com",
+        appUrl: "https://gemini.google.com/",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
@@ -62,7 +62,7 @@ const toolsDatabase = [
         description: "Herramienta de diseño de UX/UI impulsada por IA que genera documentación completa, flujos de pantallas, paletas de colores y prototipos interactivos a partir de una idea.",
         videoContext: "Se utilizó para idear y prototipar tres enfoques distintos de una aplicación móvil diseñada para ayudar a las personas a dejar de fumar.",
         tags: ["Diseño UI", "UX", "Web Design"],
-        appUrl: "https://stitch.so",
+        appUrl: "https://stitch.withgoogle.com/",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
@@ -75,7 +75,7 @@ const toolsDatabase = [
         description: "Plataforma de desarrollo web de alto nivel que permite generar sitios web profesionales con animaciones complejas y arquitectura de componentes avanzada usando Gemini 3.1 Pro.",
         videoContext: "El autor la usa para construir una landing page extremadamente profesional con efectos de scroll y animaciones interactivas personalizadas.",
         tags: ["Web Design", "Frontend", "Animaciones"],
-        appUrl: "https://antigravity.ai",
+        appUrl: "https://stitch.withgoogle.com/",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
@@ -88,7 +88,7 @@ const toolsDatabase = [
         description: "Herramienta de gestión de conocimiento de Google que ahora permite generar y editar diapositivas (slide decks) de forma iterativa basándose en fuentes de información cargadas.",
         videoContext: "Se empleó para transformar un cómic y una lista de consejos de salud en presentaciones visuales, permitiendo editar elementos específicos de cada slide.",
         tags: ["Productividad", "Slides", "Notas"],
-        appUrl: "https://notebooklm.google.com",
+        appUrl: "https://notebooklm.google.com/",
         videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     },
     {
@@ -116,6 +116,32 @@ const toolsDatabase = [
         tags: ["Backend", "Autenticación", "Hosting"],
         appUrl: "https://firebase.google.com",
         videoUrl: "https://www.youtube.com/embed/go2i2BGczq0"
+    },
+    {
+        id: Date.now() + 10,
+        name: "NordVPN (Ale Javi)",
+        category: "seguridad",
+        icon: "fa-solid fa-shield-halved",
+        author: "Ale Javi",
+        updateDate: "Febrero 2026",
+        description: "Servicio de Red Privada Virtual (VPN) de alto rendimiento para navegar de forma segura y acceder a herramientas restringidas por región.",
+        videoContext: "Enlace promocional de Ale Javi para obtener acceso seguro y apoyo al canal.",
+        tags: ["Privacidad", "Seguridad", "VPN"],
+        appUrl: "https://nordvpn.com/alejavi",
+        videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
+    },
+    {
+        id: Date.now() + 11,
+        name: "Hide.me",
+        category: "seguridad",
+        icon: "fa-solid fa-mask",
+        author: "Ale Javi",
+        updateDate: "Febrero 2026",
+        description: "Extensión de VPN gratuita para Chrome que permite ocultar la IP y saltar bloqueos geográficos de forma sencilla.",
+        videoContext: "Recomendada como herramienta gratuita para acceder a las nuevas funciones de Google desde cualquier lugar.",
+        tags: ["Gratis", "Chrome", "VPN"],
+        appUrl: "https://hide.me/es/software/chrome-vpn",
+        videoUrl: "https://www.youtube.com/embed/HsQHwZFto2M"
     }
 ];
 
